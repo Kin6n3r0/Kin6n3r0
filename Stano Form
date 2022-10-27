@@ -1,0 +1,246 @@
+<section id="orderform" class="gray-bg padding-top-bottom">
+<div class="container"><header class="section-header text-center">
+<h2>Order Form</h2>
+</header><form id="order-form" action="https://secure.usaepay.com/pay/1nkt6jn1dgw75j683/RTYXYMp4" method="post" novalidate=""><input name="UMcommand" type="hidden" value="sale"> <input name="UMtestmode" type="hidden" value="1"> <input id="UMamount" name="UMamount" type="hidden" value=""> <input name="UMdescription" type="hidden" value="Golf Tournament Order"> <input id="UMexpir" name="UMexpir" type="hidden" value="">
+<p> </p>
+<p> </p>
+<div class="row">
+<div class="col-sm-12 col-md-12 px-0">
+<table class="table">
+<thead>
+<tr>
+<th>Ticket/Sponsorship</th>
+<th>Price</th>
+<th class="text-center"><span class="hidden-xs">Quantity</span></th>
+<th class="text-right">Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="vert-align">Individual Golfer</td>
+<td class="vert-align">$65</td>
+<td class="text-center"><select id="golf_ind_qty" class="form-control form-control-inline" name="golf_ind_qty">
+<option selected="selected" value="0">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+</select></td>
+<td id="golf_ind" class="text-right vert-align"> </td>
+</tr>
+<tr>
+<td class="vert-align">Optional Prize Pack</td>
+<td class="vert-align">$10 per player</td>
+<td class="text-center"><select id="prize_ind_qty" class="form-control form-control-inline" name="prize_ind_qty">
+<option selected="selected" value="0">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+</select></td>
+<td id="prize_ind" class="text-right vert-align"> </td>
+</tr>
+<tr>
+<td style="background-color: #c0c0c0; padding: 1px;" colspan="4"> </td>
+</tr>
+<tr>
+<td class="vert-align">Premium Event Sponsor</td>
+<td class="vert-align">$1000</td>
+<td class="text-center"><select id="spon_prem_qty" class="form-control form-control-inline" name="spon_prem_qty">
+<option selected="selected" value="0">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+</select></td>
+<td id="spon_prem" class="text-right vert-align"> </td>
+</tr>
+<tr>
+<td class="vert-align">Golf &amp; Hole Sponsor</td>
+<td class="vert-align">$300</td>
+<td class="text-center"><select id="spon_golf_qty" class="form-control form-control-inline" name="spon_golf_qty">
+<option selected="selected" value="0">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+</select></td>
+<td id="spon_golf" class="text-right vert-align"> </td>
+</tr>
+<tr>
+<td class="vert-align">Individual Hole Sponsor</td>
+<td class="vert-align">$100</td>
+<td class="text-center"><select id="spon_hole_qty" class="form-control form-control-inline" name="spon_hole_qty">
+<option selected="selected" value="0">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+</select></td>
+<td id="spon_hole" class="text-right vert-align"> </td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="col-sm-12 pb-5">Please list the names of the golfers included in this order. <textarea id="UMcomments" class="form-control" name="UMcomments"></textarea></div>
+<div class="col-sm-6 col-md-6 contact-info">
+<p class="text-center"><strong>Payment Method</strong></p>
+<div class="row">
+<div class="col-sm-8 col-md-8">
+<div class="form-group"><label class="control-label">Name</label> <input id="UMcard" class="form-control input-lg" style="background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg=='); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;" name="UMcard" type="text" placeholder="Card number"></div>
+</div>
+<div class="col-sm-4 col-md-4">
+<div class="form-group"><label class="control-label">Code</label> <input id="UMcvv2" class="form-control input-lg" name="UMcvv2" type="text" placeholder="Code"></div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-6 col-md-6">
+<div class="form-group"><label class="control-label" for="contact-mail">Expiration Date</label>
+<p> </p>
+<p> </p>
+<div class=" controls"><select id="month" class="form-control">
+<option value="01">01 January</option>
+<option value="02">02 February</option>
+<option value="03">03 March</option>
+<option value="04">04 April</option>
+<option value="05">05 May</option>
+<option value="06">06 June</option>
+<option value="07">07 July</option>
+<option value="08">08 August</option>
+<option value="09">09 September</option>
+<option value="10">10 October</option>
+<option value="11">11 November</option>
+<option value="12">12 December</option>
+</select></div>
+</div>
+</div>
+<div class="col-sm-6 col-md-6">
+<div class="form-group"><label class="control-label" for="contact-mail"> </label>
+<p> </p>
+<p> </p>
+<div class=" controls"><select id="year" class="form-control">
+<option value="22">2022</option>
+<option value="23">2023</option>
+<option value="24">2024</option>
+<option value="25">2025</option>
+<option value="26">2026</option>
+<option value="27">2027</option>
+</select></div>
+</div>
+</div>
+</div>
+<p class="text-center"><strong>Billing Information</strong></p>
+<div class="row">
+<div class="col-sm-6 col-md-6">
+<div class="form-group"><label class="control-label">Name</label> <input class="form-control input-lg" name="UMbillfname" type="text" placeholder="First name"></div>
+</div>
+<div class="col-sm-6 col-md-6">
+<div class="form-group"><label class="control-label">Last Name</label> <input class="form-control input-lg" name="UMbilllname" type="text" placeholder="Last name"></div>
+</div>
+</div>
+<div class="form-group"><label class="control-label">Email</label> <input class="form-control input-lg" name="UMemail" type="email" placeholder="Your email"></div>
+<div class="form-group"><label class="control-label">Phone Number</label> <input class="form-control input-lg" name="UMbillphone" type="email" placeholder="Your Phone Number"></div>
+</div>
+<div class="col-sm-6 col-md-6">
+<p class="text-center"><strong>Billing Address</strong></p>
+<div class="form-group"><label class="control-label">Street</label> <input class="form-control" name="UMbillstreet" type="text" placeholder="Street address"></div>
+<div class="form-group"><label class="control-label">City</label> <input class="form-control" name="UMbillcity" type="text" placeholder="City"></div>
+<div class="form-group"><label class="control-label">State</label> <input class="form-control" name="UMbillstate" type="text" value="FL"></div>
+<div class="form-group"><label class="control-label">Zip</label> <input class="form-control" name="UMzip" type="text" placeholder="Zip Code"></div>
+<table class="table">
+<thead>
+<tr>
+<th class="text-center" colspan="3">Order sumary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Total:</td>
+<td> </td>
+<td id="total" class="text-right"> </td>
+</tr>
+</tbody>
+</table>
+<p><input id="UMline1sku" name="UMline1sku" type="hidden" value="2020G"> <input id="UMline1name" name="UMline1name" type="hidden" value="Individual Golfer Pass"> <input id="UMline1cost" name="UMline1cost" type="hidden" value="65"> <input id="UMline1qty" name="UMline1qty" type="hidden" value="0"> <input id="UMline1taxable" name="UMline1taxable" type="hidden" value="N"> <input id="UMline3sku" name="UMline3sku" type="hidden" value="2020P"> <input id="UMline3name" name="UMline3name" type="hidden" value="Individual Prize Pack"> <input id="UMline3cost" name="UMline3cost" type="hidden" value="10"> <input id="UMline3qty" name="UMline3qty" type="hidden" value="0"> <input id="UMline3taxable" name="UMline3taxable" type="hidden" value="N"> <input id="UMline4sku" name="UMline4sku" type="hidden" value="2020PS"> <input id="UMline4name" name="UMline4name" type="hidden" value="Premium Sponsor"> <input id="UMline4cost" name="UMline4cost" type="hidden" value="1000"> <input id="UMline4qty" name="UMline4qty" type="hidden" value="0"> <input id="UMline4taxable" name="UMline4taxable" type="hidden" value="N"> <input id="UMline5sku" name="UMline5sku" type="hidden" value="2020GHS"> <input id="UMline5name" name="UMline5name" type="hidden" value="Hole Sponsor with Golf"> <input id="UMline5cost" name="UMline5cost" type="hidden" value="300"> <input id="UMline5qty" name="UMline5qty" type="hidden" value="0"> <input id="UMline5taxable" name="UMline5taxable" type="hidden" value="N"> <input id="UMline6sku" name="UMline6sku" type="hidden" value="2020HS"> <input id="UMline6name" name="UMline6name" type="hidden" value="Hole Sponsor"> <input id="UMline6cost" name="UMline6cost" type="hidden" value="100"> <input id="UMline6qty" name="UMline6qty" type="hidden" value="0"> <input id="UMline6taxable" name="UMline6taxable" type="hidden" value="N"> <button class="btn btn-brand-red btn-block" name="submit" type="submit">Place Order</button></p>
+</div>
+</div>
+</form></div>
+</section>
+<p><script>
+jQuery( document ).ready(function() {
+	jQuery('#golf_ind_qty').change(function(){
+		var qty = parseInt(jQuery('#golf_ind_qty').val());
+		jQuery('#UMline1qty').val(qty)
+		jQuery('#golf_ind').text("$" + qty * 65);
+		updateTotal();
+	});
+	jQuery('#prize_ind_qty').change(function(){
+		var qty = parseInt(jQuery('#prize_ind_qty').val());
+		jQuery('#UMline3qty').val(qty)
+		jQuery('#prize_ind').text("$" + qty * 10);
+		updateTotal();
+	});
+	jQuery('#spon_prem_qty').change(function(){
+		var qty = parseInt(jQuery('#spon_prem_qty').val());
+		jQuery('#UMline4qty').val(qty)
+		jQuery('#spon_prem').text("$" + qty * 1000);
+		updateTotal();
+	});
+	jQuery('#spon_golf_qty').change(function(){
+		var qty = parseInt(jQuery('#spon_golf_qty').val());
+		jQuery('#UMline5qty').val(qty)
+		jQuery('#spon_golf').text("$" + qty * 300);
+		updateTotal();
+	});
+	jQuery('#spon_hole_qty').change(function(){
+		var qty = parseInt(jQuery('#spon_hole_qty').val());
+		jQuery('#UMline6qty').val(qty)
+		jQuery('#spon_hole').text("$" + qty * 100);
+		updateTotal();
+	});
+	jQuery('#year').change(function(){
+		var year = jQuery('#year').val().toString();
+		var month = jQuery('#month').val().toString();
+		jQuery('#UMexpir').val(month+year);
+console.log(month+year);
+	});
+	jQuery('#month').change(function(){
+		var year = jQuery('#year').val().toString();
+		var month = jQuery('#month').val().toString();
+		jQuery('#UMexpir').val(month+year);
+console.log(month+year);
+	});
+});
+function updateTotal() {
+var golf_ind_qty = parseInt(jQuery('#golf_ind_qty').val())*65;
+var prize_ind_qty = parseInt(jQuery('#prize_ind_qty').val())*10;
+var spon_prem_qty = parseInt(jQuery('#spon_prem_qty').val())*1000;
+var spon_golf_qty = parseInt(jQuery('#spon_golf_qty').val())*300;
+var spon_hole_qty = parseInt(jQuery('#spon_hole_qty').val())*100;
+var total = golf_ind_qty + prize_ind_qty + spon_prem_qty + spon_golf_qty + spon_hole_qty;
+jQuery('#total').text("$" + total);
+jQuery('#UMamount').val(total);
+};
+</script></p>
